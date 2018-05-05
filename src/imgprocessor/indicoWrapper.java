@@ -33,7 +33,7 @@ public class indicoWrapper {
     }
     
     public void parseImage(String file){
-        IndicoResult response;
+        IndicoResult response = null;
         //List<String>> csvList = new ArrList<String>>();
         Map<FacialEmotion,Double> output = null;
        
@@ -45,8 +45,9 @@ public class indicoWrapper {
             System.out.println(e);
         }   
         workingInput = output;
-        
+        if (response != null) {
         process();
+        }
     }
     
     private void process(){
