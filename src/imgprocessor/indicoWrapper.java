@@ -34,7 +34,7 @@ public class indicoWrapper {
     
     public void parseImage(String file){
         IndicoResult response = null;
-        //List<String>> csvList = new ArrList<String>>();
+        
         Map<FacialEmotion,Double> output = null;
        
         try{
@@ -43,10 +43,13 @@ public class indicoWrapper {
         }catch (Exception e){
             System.out.println("--Exception--");
             System.out.println(e);
+            System.out.println("--Exception--");
         }   
         workingInput = output;
         if (response != null) {
-        process();
+            process();
+        }else{
+            System.out.println("No Response from indico");
         }
     }
     
