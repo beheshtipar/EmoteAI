@@ -15,9 +15,11 @@ This project was written in Python 3.x, and uses the Open Source Computer Vision
 The machine has been trained to distinguish 5 different emotions 'Neutral', 'Anger', 'Disgust', 'Happy' and 'Surprise'.
 We ultizlied the pre-made OpenCV cascasde to pre-process the dataset (Fisherfaces algotheriem has also been applied)
 
-The raw data (Facial photos) has been collected from Internet. Before the pre-processing, the raw data will be manually classfied into 5 different pre-defined moods. In order to raise the training accuracy, there is a script written to crop and gray style all the training photos. The training script is written in Python leveraging OpenCV Models and Fisherface algorithem to determine the emotion of the input photos. 
+The raw data (Facial photos) has been collected from Internet. Before the pre-processing, the raw data will be manually classfied into 5 different pre-defined moods. In order to raise the training accuracy, there is a script written to crop and gray style all the training photos. The training script is written in Python leveraging the OpenCV Models and the Fisherface algorithem to determine the emotion of the input photos. 
 
 
-## Future Benefits 
+## Potential Benefits 
+This product could potentically be combined with many Facial recognization systems to level up the systems' intelligence levels. 
+
 
 
