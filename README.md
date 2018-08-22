@@ -1,6 +1,6 @@
 # EmoteAI
 
-A collaborative facial recognition and emotion processing project by Parsa Beheshti, Lawrence Liu, Adrian Salvatore, and Natasha Varghese, completed at Hack WESCAM 2018.
+A collaborative facial recognition and emotion processing project by Parsa Beheshti, Lawrence Liu, Adrian Salvatore, and Natasha Varghese, completed at HackWESCAM 2018.
 
 ## Motivation/Background
 
